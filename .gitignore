@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# VS Code
+.vscode/
+
+# Backup files
+*_backup*.py
+*_corrupted*.py
+
+# Environment
+.env
+.DS_Store
+
+# Scripts auxiliares (não necessários no deploy)
+create_demo_data.py
+download_data.py
+preparar_deploy.sh
+deploy_rapido.sh

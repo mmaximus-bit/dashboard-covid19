@@ -39,6 +39,9 @@ wheels/
 .env
 .DS_Store
 
+# Dados grandes (será baixado automaticamente)
+owid-covid-data.csv
+
 # Scripts auxiliares (não necessários no deploy)
 create_demo_data.py
 download_data.py
